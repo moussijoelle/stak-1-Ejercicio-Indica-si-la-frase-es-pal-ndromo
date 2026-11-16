@@ -1,12 +1,12 @@
-# ¿Es palíndromo? (Stack 1)
+# ¿Es un palíndromo?
 
-Comprueba si un texto se lee igual al derecho y al revés (ignorando acentos y signos).
+Escribes una frase y comprueba si se lee igual al derecho y al revés (sin liarnos con acentos ni signos).
 
 ## Qué hace
 
-- Formulario para escribir una frase
-- Botón “Comprobar palíndromo”
-- Muestra el resultado en pantalla
+- Campo de texto + botón “Comprobar”
+- Resultado en pantalla
+- Ejemplo sugerido: “Yo dono rosas, oro no doy”
 
 ## Cómo probarlo
 
@@ -16,13 +16,11 @@ Demo: https://moussijoelle.github.io/stak-1-Ejercicio-Indica-si-la-frase-es-pal-
 
 ## Cómo lo construí
 
-- Vite + JavaScript + CSS (DaisyUI / Tailwind en el build)
-- UI en `index.html` (`formTexto`, `texto`, `resultado`)
-- Fondo en `img/bg.jpg`
+Vite + JS; UI en el HTML con estilo DaisyUI/Tailwind del build. Fondo en `img/bg.jpg`.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo frases como “Yo dono rosas, oro no doy” y otra que no sea palíndromo.
+Pruebo la frase del ejemplo y otra que claramente no sea palíndromo.
 
 ---
 
